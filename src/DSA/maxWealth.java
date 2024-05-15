@@ -25,8 +25,10 @@ public class maxWealth {
             }
             if (sumOfWealth > maxWealth) {
                 maxWealth = sumOfWealth;
+                maxWealthPerson.clear(); // Clear the list before adding the current person
                 maxWealthPerson.add(person);
             }
+
 
         }
         return maxWealthPerson;
